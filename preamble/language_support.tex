@@ -1,0 +1,74 @@
+\usepackage{polyglossia}
+\setdefaultlanguage{bulgarian}
+
+\captionsbulgarian{
+  \def\equationname{Уравнение}%
+  \def\footnotename{Бележка}%
+  \def\itemname{Точка}%
+  \def\figurename{Фигура}%
+  \def\tablename{Таблица}%
+  \def\partname{Част}%
+  \def\appendixname{Апендикс}%
+  \def\chaptername{Глава}%
+  \def\sectionname{Секция}%
+  \def\subsectionname{Събсекция}%
+  \def\subsubsectionname{Събсъбсекция}%
+  \def\paragraphname{Параграф}%
+  \def\subparagraphname{Събпарагра}%
+  \def\FancyVerbLinename{Линия}%
+  \def\theoremname{Теорема}%
+  \def\pagename{Страница}%
+}
+
+\makeatletter
+\ifdefined\HyLang@bulgarian\else
+\gappto\blockextras@bulgarian{%
+  \def\equationautorefname{Уравнение}%
+  \def\footnoteautorefname{Бележка}%
+  \def\itemautorefname{Точка}%
+  \def\figureautorefname{Фигура}%
+  \def\tableautorefname{Таблица}%
+  \def\partautorefname{Част}%
+  \def\appendixautorefname{Апендикс}%
+  \def\chapterautorefname{Глава}%
+  \def\sectionautorefname{Секция}%
+  \def\subsectionautorefname{Събсекция}%
+  \def\subsubsectionautorefname{Събсъбсекция}%
+  \def\paragraphautorefname{Параграф}%
+  \def\subparagraphautorefname{Събпарагра}%
+  \def\FancyVerbLineautorefname{Линия}%
+  \def\theoremautorefname{Теорема}%
+  \def\pageautorefname{Страница}%
+}
+\let\inlineextras@bulgarian\blockextras@bulgarian
+\fi
+
+\ifdefined\HyLang@english\else
+\appto\blockextras@english{%
+  \def\equationautorefname{Equation}%
+  \def\footnoteautorefname{footnote}%
+  \def\itemautorefname{item}%
+  \def\figureautorefname{Figure}%
+  \def\tableautorefname{Table}%
+  \def\partautorefname{Part}%
+  \def\appendixautorefname{Appendix}%
+  \def\chapterautorefname{Chapter}%
+  \def\sectionautorefname{section}%
+  \def\subsectionautorefname{subsection}%
+  \def\subsubsectionautorefname{subsubsection}%
+  \def\paragraphautorefname{paragraph}%
+  \def\subparagraphautorefname{subparagraph}%
+  \def\FancyVerbLineautorefname{line}%
+  \def\theoremautorefname{Тheorem}%
+  \def\pageautorefname{page}%
+}
+% \inlineextras@english is empty, so we simply set it
+% equal to \blockextras@english
+\let\inlineextras@english\blockextras@english
+\fi
+\makeatother
+
+
+\setotherlanguage{english}
+
+\usepackage[style=german]{csquotes}

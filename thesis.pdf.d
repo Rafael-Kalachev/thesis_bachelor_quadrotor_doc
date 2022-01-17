@@ -172,9 +172,6 @@ thesis.pdf :\
     /usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty\
     /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg\
     /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty\
-    /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty\
-    /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty\
-    /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty\
     /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty\
     /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def\
     /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty\

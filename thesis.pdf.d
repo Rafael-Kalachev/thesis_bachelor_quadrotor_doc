@@ -29,6 +29,9 @@ thesis.pdf :\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb\
     /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\
     /usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty\
     /usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty\

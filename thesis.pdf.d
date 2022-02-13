@@ -231,7 +231,6 @@ thesis.pdf :\
     bibliography/thesis.bib\
     chapters/arch.tex\
     chapters/construction_architecture.tex\
-    chapters/construction_solved_problems.tex\
     chapters/environment.tex\
     chapters/gyro_acc.tex\
     chapters/hardware.tex\
@@ -240,6 +239,7 @@ thesis.pdf :\
     chapters/mag.tex\
     chapters/mcu.tex\
     chapters/modeling.tex\
+    chapters/solved_problems.tex\
     graphics/3d_printer_hardware.jpeg\
     graphics/SQ50-logic-analyzer.png\
     graphics/acc_gyro_directions_and_pinout.png\

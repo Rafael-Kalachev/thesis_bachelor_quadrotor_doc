@@ -32,6 +32,7 @@ thesis.pdf :\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb\
     /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\
     /usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty\
     /usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty\
@@ -239,7 +240,15 @@ thesis.pdf :\
     chapters/mag.tex\
     chapters/mcu.tex\
     chapters/modeling.tex\
+    graphics/3d_printer_hardware.jpeg\
+    graphics/SQ50-logic-analyzer.png\
+    graphics/balance_construction.png\
+    graphics/drone_construction.png\
+    graphics/freecad_window.png\
     graphics/logo.png\
+    graphics/prop_balancer.jpg\
+    graphics/scana_studio_window.png\
+    graphics/ultimaker_cura_window.png\
     preamble/color.tex\
     preamble/document_preamble.tex\
     preamble/font_spec.tex\

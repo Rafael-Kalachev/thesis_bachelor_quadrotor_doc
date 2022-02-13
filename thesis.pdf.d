@@ -13,6 +13,7 @@ thesis.pdf :\
     /home/rafael/.texlive2019/texmf-var/luatex-cache/generic-dev/fonts/otl/lmroman10-regular.luc\
     /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm\
@@ -22,17 +23,24 @@ thesis.pdf :\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm\
+    /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb\
     /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii\
     /usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty\
     /usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty\
@@ -176,6 +184,8 @@ thesis.pdf :\
     /usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty\
     /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg\
     /usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty\
+    /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty\
+    /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty\
     /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty\
     /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def\
     /usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty\
@@ -230,6 +240,7 @@ thesis.pdf :\
     bibliography/article_bibliography_setup.tex\
     bibliography/thesis.bib\
     chapters/arch.tex\
+    chapters/building_environment.tex\
     chapters/construction_architecture.tex\
     chapters/environment.tex\
     chapters/gyro_acc.tex\
@@ -238,6 +249,7 @@ thesis.pdf :\
     chapters/intro.tex\
     chapters/mag.tex\
     chapters/mcu.tex\
+    chapters/mcu_init.tex\
     chapters/modeling.tex\
     chapters/solved_problems.tex\
     graphics/3d_printer_hardware.jpeg\
@@ -266,5 +278,6 @@ thesis.pdf :\
     preamble/review.tex\
     preamble/utils.tex\
     prefrontmattes/titlepage.tex\
+    src/config.mk\
     thesis.tex
 #===End dependents for thesis.tex:

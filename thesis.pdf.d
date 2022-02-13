@@ -240,9 +240,12 @@ thesis.pdf :\
     bibliography/article_bibliography_setup.tex\
     bibliography/thesis.bib\
     chapters/arch.tex\
+    chapters/battery.tex\
+    chapters/bldc.tex\
     chapters/building_environment.tex\
     chapters/construction_architecture.tex\
     chapters/environment.tex\
+    chapters/esc.tex\
     chapters/gyro_acc.tex\
     chapters/hardware.tex\
     chapters/improve.tex\
@@ -256,10 +259,13 @@ thesis.pdf :\
     graphics/SQ50-logic-analyzer.png\
     graphics/acc_gyro_directions_and_pinout.png\
     graphics/balance_construction.png\
+    graphics/bldc_hardware.png\
     graphics/discovery_kit.png\
     graphics/drone_construction.png\
+    graphics/esc_hardware.jpg\
     graphics/freecad_window.png\
     graphics/frequencies.png\
+    graphics/lipo_and_charger.png\
     graphics/logo.png\
     graphics/mag_directions_and_pinout.png\
     graphics/mcu_pinout.png\

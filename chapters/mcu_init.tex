@@ -31,9 +31,26 @@
 
 \begin{figure}[htpb!]
     \centering
-    \includegraphics[width=0.5\textwidth]{mcu_pinout}
-    \caption{Наименования на изведените пинове през използваният пакет}
+    \includegraphics[width=0.9\textwidth]{frequencies}
+    \caption{Честоти на системните шини ии часовници след конфигурация}
     \label{fig:frequencies}
 \end{figure}
- 
+
+Дуга основна част на системанта инициализация е инициалиирането на хардуерният модул за числа с плаваща запетая (FPU).
+Тъй като от конфигурацията (\autoref{lst:make_config}) настройваме комилатора за работа с модула за числа с плаваща запетая е важно
+преди която и да е операция с числа с плаваща запетая този модул да бъде инициализиран.
+Важно е инициализацията на FPU да се случи преди преминването в ограничен режим.
+Инициализацията се случва, чрез блокът от код (\autoref{lst:enable_fpu}).
+\begin{lstlisting}[language=c, caption={Инициализация на модула за числа с плаваща запетая}, label={lst:enable_fpu}]
+    /* Enable The FPU*/
+    uint32_t* CPACR = (uint32_t*)0xE000ED88;
+    *CPACR |=  0b00000000111100000000000000000000;
+\end{lstlisting}
+
+\subsubsection{Инициализация на периферията}
+
+\change{WRITE}
+
+
+
 

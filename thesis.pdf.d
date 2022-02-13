@@ -259,6 +259,7 @@ thesis.pdf :\
     graphics/discovery_kit.png\
     graphics/drone_construction.png\
     graphics/freecad_window.png\
+    graphics/frequencies.png\
     graphics/logo.png\
     graphics/mag_directions_and_pinout.png\
     graphics/mcu_pinout.png\

@@ -1,4 +1,5 @@
 \subsection{Микроконтролер}
+\FloatBarrier
 
 Микроконторлерът използван за проекта е с ядро с архитектура \textit{ARM Cortex-M4},
 произведен от \textit{STMicroelectronics}.
@@ -29,12 +30,26 @@
     
     \item GPIO: 114бр.
     \item Интерфейс за програмиране: \textit{ST-LINK}
-    \item Опаковка: LQFP144 
-\end{itemize} 
+    \item Опаковка: LQFP144 (\autoref{fig:mcu_pinout})
+\end{itemize}
+
+\begin{figure}[htpb!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{discovery_kit}
+    \caption{Комплект 32F429IDISCOVERY}
+    \label{fig:discovery_kit}
+\end{figure}
+
+\begin{figure}[htpb!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{mcu_pinout}
+    \caption{Наименования на изведените пинове през използваният пакет}
+    \label{fig:mcu_pinout}
+\end{figure}
 
 \subsubsection{Комплект 32F429IDISCOVERY}
 
-Микроконтролерът е час то платка \textit{32F429IDISCOVERY} 
+Микроконтролерът е час то платка \textit{32F429IDISCOVERY} (\autoref{fig:discovery_kit})
 (комплект за оценка на функционалиностите на \textit{STMicroelectronics}).
 комплектът предоставя множество функционалности вградени в платката като
 8MHz външен осцилатор, Вграден \textit{ST-LINK} програматор,
@@ -46,4 +61,5 @@ LCD Дисплей, 2бр. LED, както и удобна връзка към �
 който докато USB не е свързано поддържа процесора в \textit{RESET}
 през дебъгера.
 
+\FloatBarrier
 

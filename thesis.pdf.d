@@ -242,10 +242,14 @@ thesis.pdf :\
     chapters/modeling.tex\
     graphics/3d_printer_hardware.jpeg\
     graphics/SQ50-logic-analyzer.png\
+    graphics/acc_gyro_directions_and_pinout.png\
     graphics/balance_construction.png\
+    graphics/discovery_kit.png\
     graphics/drone_construction.png\
     graphics/freecad_window.png\
     graphics/logo.png\
+    graphics/mag_directions_and_pinout.png\
+    graphics/mcu_pinout.png\
     graphics/prop_balancer.jpg\
     graphics/scana_studio_window.png\
     graphics/ultimaker_cura_window.png\

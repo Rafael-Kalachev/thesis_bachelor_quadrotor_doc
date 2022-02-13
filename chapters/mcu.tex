@@ -1,19 +1,19 @@
 \subsection{Микроконтролер}
 \FloatBarrier
 
-Микроконторлерът използван за проекта е с ядро с архитектура \textit{ARM Cortex-M4},
+Микроконторлерът, използван за проекта, е с ядро с архитектура \textit{ARM Cortex-M4},
 произведен от \textit{STMicroelectronics}.
 Модел \texttt{stm32f429ZIT6U}.
 
 \subsubsection{Характеристики}
 
-В следният списък са поместени основните характеристики
+В следния списък са поместени основните характеристики
 на микроконтролера \cite{stmmcudatasheet}.
 
 \begin{itemize} 
     \item Ядро: \textit{32b Arm Cortex-M4} с FPU
     \item Максимална честота на процесора: 180MHz
-    \item Флаш Памет: 2048 Kbytes
+    \item Флаш памет: 2048 Kbytes
     \item SRAM: Системна : 256 ( 112 + 16 + 64 + 64 ) Kbytes
     \item Таймери:
     \begin{itemize} 
@@ -21,13 +21,12 @@
         \item Advanced control: 2бр. (\change{Add timers})
         \item Basic: 2бр. (\change{Add timers})
     \end{itemize}     
-    \item Цомуникационни интерфейси:
+    \item Комуникационни интерфейси:
     \begin{itemize}
         \item SPI/I2S : 6/2 (пълен дуплекс) 
         \item I2C: 3
         \item USART/UART: 4/4
     \end{itemize} 
-    
     \item GPIO: 114бр.
     \item Интерфейс за програмиране: \textit{ST-LINK}
     \item Опаковка: LQFP144 (\autoref{fig:mcu_pinout})
@@ -35,31 +34,33 @@
 
 \begin{figure}[htpb!]
     \centering
-    \includegraphics[width=0.5\textwidth]{discovery_kit}
+    \includegraphics[width=0.3\textwidth]{discovery_kit}
     \caption{Комплект 32F429IDISCOVERY}
     \label{fig:discovery_kit}
 \end{figure}
 
 \begin{figure}[htpb!]
     \centering
-    \includegraphics[width=0.5\textwidth]{mcu_pinout}
-    \caption{Наименования на изведените пинове през използваният пакет}
+    \includegraphics[width=0.4\textwidth]{mcu_pinout}
+    \caption{Наименования на изведените пинове през използвания пакет}
     \label{fig:mcu_pinout}
 \end{figure}
 
 \subsubsection{Комплект 32F429IDISCOVERY}
 
-Микроконтролерът е час то платка \textit{32F429IDISCOVERY} (\autoref{fig:discovery_kit})
+Микроконтролерът е част от платка \textit{32F429IDISCOVERY} (\autoref{fig:discovery_kit})
 (комплект за оценка на функционалиностите на \textit{STMicroelectronics}).
-комплектът предоставя множество функционалности вградени в платката като
-8MHz външен осцилатор, Вграден \textit{ST-LINK} програматор,
-LCD Дисплей, 2бр. LED, както и удобна връзка към пиновете на
+Комплектът предоставя множество функционалности, вградени в платката като
+8MHz външен осцилатор, вграден \textit{ST-LINK} програматор,
+LCD дисплей, 2 броя LED, както и удобна връзка към пиновете на
 микроконтролера в THT формат.
 
-Важно нещо да се отбележи, е че в комплекта \textit{32F429IDISCOVERY}
-има познат проблем с вграденият \textit{ST-LINK} програматор,
-който докато USB не е свързано поддържа процесора в \textit{RESET}
+Важно е да се отбележи, че в комплекта \textit{32F429IDISCOVERY}
+има познат проблем с вградения \textit{ST-LINK} програматор.
+Докато устройството не е свързано чрез USB, програматорът поддържа процесора в \textit{RESET}
 през дебъгера.
+Проблемът се решава, чрез ъпдейт на фърмуера на дебъгера 
+или декуплиране чрез физическо разединяване на каналите на дебъгера върху платката (CN4). 
 
 \FloatBarrier
 

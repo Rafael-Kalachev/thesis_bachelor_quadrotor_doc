@@ -36,8 +36,11 @@ thesis.pdf :\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm\
     /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb\
+    /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb\
     /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb\
@@ -259,16 +262,20 @@ thesis.pdf :\
     graphics/SQ50-logic-analyzer.png\
     graphics/acc_gyro_directions_and_pinout.png\
     graphics/balance_construction.png\
+    graphics/balance_force_diagram.png\
     graphics/bldc_hardware.png\
     graphics/discovery_kit.png\
     graphics/drone_construction.png\
     graphics/esc_hardware.jpg\
     graphics/freecad_window.png\
     graphics/frequencies.png\
+    graphics/gyro_drift_calibrate.png\
     graphics/lipo_and_charger.png\
     graphics/logo.png\
+    graphics/mag_calibration.png\
     graphics/mag_directions_and_pinout.png\
     graphics/mcu_pinout.png\
+    graphics/motor_model.png\
     graphics/prop_balancer.jpg\
     graphics/scana_studio_window.png\
     graphics/ultimaker_cura_window.png\

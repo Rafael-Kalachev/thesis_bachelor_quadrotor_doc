@@ -241,7 +241,6 @@ thesis.pdf :\
     /var/lib/texmf/web2c/luatex/lualatex.fmt\
     bibliography/article_bibliography_print.tex\
     bibliography/article_bibliography_setup.tex\
-    bibliography/thesis.bib\
     chapters/arch.tex\
     chapters/battery.tex\
     chapters/bldc.tex\
@@ -264,12 +263,16 @@ thesis.pdf :\
     graphics/balance_construction.png\
     graphics/balance_force_diagram.png\
     graphics/bldc_hardware.png\
+    graphics/control_force.png\
     graphics/discovery_kit.png\
     graphics/drone_construction.png\
     graphics/esc_hardware.jpg\
     graphics/freecad_window.png\
     graphics/frequencies.png\
     graphics/gyro_drift_calibrate.png\
+    graphics/kalman_filter_time_vs_raw.png\
+    graphics/kalman_filter_time_vs_raw_2.png\
+    graphics/kinematika.png\
     graphics/lipo_and_charger.png\
     graphics/logo.png\
     graphics/mag_calibration.png\
@@ -277,6 +280,8 @@ thesis.pdf :\
     graphics/mcu_pinout.png\
     graphics/motor_model.png\
     graphics/prop_balancer.jpg\
+    graphics/quadrotor_simulink.png\
+    graphics/rotors.png\
     graphics/scana_studio_window.png\
     graphics/ultimaker_cura_window.png\
     preamble/color.tex\

@@ -252,6 +252,7 @@ thesis.pdf :\
     chapters/hardware.tex\
     chapters/improve.tex\
     chapters/intro.tex\
+    chapters/joystick.tex\
     chapters/mag.tex\
     chapters/mcu.tex\
     chapters/mcu_init.tex\
@@ -281,8 +282,11 @@ thesis.pdf :\
     graphics/motor_model.png\
     graphics/prop_balancer.jpg\
     graphics/quadrotor_simulink.png\
+    graphics/reciever_wires.png\
     graphics/rotors.png\
     graphics/scana_studio_window.png\
+    graphics/spectrum_joystick.jpg\
+    graphics/spectrum_reciever_img.jpg\
     graphics/ultimaker_cura_window.png\
     preamble/color.tex\
     preamble/document_preamble.tex\

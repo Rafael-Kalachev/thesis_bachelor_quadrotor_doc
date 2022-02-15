@@ -284,6 +284,8 @@ thesis.pdf :\
     graphics/main_events.png\
     graphics/mcu_pinout.png\
     graphics/motor_model.png\
+    graphics/pcb1.png\
+    graphics/pcb2.png\
     graphics/prop_balanced.png\
     graphics/prop_balancer.jpg\
     graphics/prop_on_balance.png\
@@ -293,6 +295,7 @@ thesis.pdf :\
     graphics/scana_studio_window.png\
     graphics/spectrum_joystick.jpg\
     graphics/spectrum_reciever_img.jpg\
+    graphics/uart_usb.png\
     graphics/ultimaker_cura_window.png\
     graphics/universal_pid.png\
     preamble/color.tex\

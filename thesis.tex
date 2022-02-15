@@ -20,7 +20,6 @@
 
 \tableofcontents
 \listoffigures
-\listoftables
 \newpage
 
 
@@ -31,17 +30,21 @@
 \input{chapters/solved_problems}
 \input{chapters/improve}
 
-
+\newpage
 \section{Литература}
 
 \input{bibliography/article_bibliography_print}
 
-
-\section{Приложения}
+\newpage
+\section*{Приложения}
 
 \begin{appendix}
+    \section{Системна конфигурация}
+
     \lstinputlisting[language=make, caption={\texttt{config.mk}}, label={lst:make_config}]{src/config.mk}
 
+    \section{Процедура за изчисляване на магнитометърна компенсация}
+    \lstinputlisting[language=matlab, caption={\texttt{MgnCalibration.mk}}, label={lst:make_config}]{src/MgnCalibration.m}
 \end{appendix}
 
 \end{document}

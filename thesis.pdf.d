@@ -241,6 +241,7 @@ thesis.pdf :\
     /var/lib/texmf/web2c/luatex/lualatex.fmt\
     bibliography/article_bibliography_print.tex\
     bibliography/article_bibliography_setup.tex\
+    bibliography/thesis.bib\
     chapters/arch.tex\
     chapters/battery.tex\
     chapters/bldc.tex\
@@ -264,7 +265,9 @@ thesis.pdf :\
     graphics/balance_construction.png\
     graphics/balance_force_diagram.png\
     graphics/bldc_hardware.png\
+    graphics/control_diagram_simple.png\
     graphics/control_force.png\
+    graphics/controlled_system.png\
     graphics/discovery_kit.png\
     graphics/drone_construction.png\
     graphics/esc_hardware.jpg\
@@ -278,9 +281,12 @@ thesis.pdf :\
     graphics/logo.png\
     graphics/mag_calibration.png\
     graphics/mag_directions_and_pinout.png\
+    graphics/main_events.png\
     graphics/mcu_pinout.png\
     graphics/motor_model.png\
+    graphics/prop_balanced.png\
     graphics/prop_balancer.jpg\
+    graphics/prop_on_balance.png\
     graphics/quadrotor_simulink.png\
     graphics/reciever_wires.png\
     graphics/rotors.png\
@@ -288,6 +294,7 @@ thesis.pdf :\
     graphics/spectrum_joystick.jpg\
     graphics/spectrum_reciever_img.jpg\
     graphics/ultimaker_cura_window.png\
+    graphics/universal_pid.png\
     preamble/color.tex\
     preamble/document_preamble.tex\
     preamble/font_spec.tex\
@@ -301,6 +308,7 @@ thesis.pdf :\
     preamble/review.tex\
     preamble/utils.tex\
     prefrontmattes/titlepage.tex\
+    src/MgnCalibration.m\
     src/config.mk\
     thesis.tex
 #===End dependents for thesis.tex:
